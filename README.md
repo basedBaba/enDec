@@ -14,10 +14,16 @@ Encrypt/Decrypt files with fernet symmetric cryptography
 ## Installation
 
 ```
-git clone https://github.com/based-baba/enDec
+# Clone the project locally
+git clone https://github.com/basedBaba/enDec
 
+# Create a virtual environment and install the required packages
 cd enDec
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 
+# Make the script executable
 chmod +x endec.py
 
 ./endec.py -h
