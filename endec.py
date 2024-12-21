@@ -6,7 +6,7 @@ from cryptography.fernet import Fernet
 
 
 def print_banner():
-    print("""
+    print(r"""
                   ____              
       ___  ____  / __ \___  _____   
      / _ \/ __ \/ / / / _ \/ ___/   
